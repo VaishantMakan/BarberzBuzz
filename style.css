@@ -62,6 +62,16 @@ nav ul li a:hover::after {
     left: 5px;
 }
 
+nav .navbar-bookNow-btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #D19F68;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-right: 7%;
+    background-color: #D19F68;
+}
+
 .content {
     text-align: center;
 }
@@ -76,7 +86,7 @@ nav ul li a:hover::after {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    z-index: -100;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -93,13 +103,21 @@ nav ul li a:hover::after {
     }
 }
 
-nav .navbar-bookNow-btn{
+/* Parallax Div's styling */
+.parallax-div-1 {
+    height: 600px;
+    background-image: url(images/p1.png);
+    background-attachment: fixed;
+    background-size: cover;
     color: #fff;
-    text-decoration: none;
-    border: 1px solid #D19F68;
-    padding: 10px 30px;
-    border-radius: 30px;
-    margin-right: 7%;
-    
+}
 
+.temp1 {
+    height: 100vh;
+    width: 100%;
+}
+
+.temp2 {
+    height: 100vh;
+    width: 100%;
 }

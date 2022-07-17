@@ -16,42 +16,48 @@
     justify-content: center;
 }
 
-nav {
+/* Navbar items */
+
+/* .header {
+    position: relative;
+} */
+
+/* nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 20px 8%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 999;
+} */
 
-}
-
-nav .logo {
+/* nav .logo {
     width: 60px;
-}
+} */
 
-nav ul li{
+/* nav ul li{
     list-style: none;
     display: inline-block;
     margin-left: 40px;
     position: relative;
-}
+} */
 
-nav ul li a{
+/* nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 17px;
     transition: 0.3s ease;
-}
+} */
 
-nav ul li a:hover,
+/* nav ul li a:hover,
 nav ul li a.active {
     color: #D19F68;
-}
+} */
 
-nav ul li a.active::after,
+/* nav ul li a.active::after,
 nav ul li a:hover::after {
     content: "";
     width: 60%;
@@ -60,7 +66,7 @@ nav ul li a:hover::after {
     position: absolute;
     bottom: -4px;
     left: 5px;
-}
+} */
 
 nav .navbar-bookNow-btn{
     color: #fff;
